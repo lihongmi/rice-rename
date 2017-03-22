@@ -1,6 +1,6 @@
 {
   "name": "rice-rename",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "CLI for scaffolding rename projects. 给当前文件夹下图片文件重命名的",
   "main": "bin/rename",
   "engines": {
