@@ -13,31 +13,12 @@ $ npm install rice-rename -g
 ### Usage
 
 ```
-$ rename init                  // in current directory
-$ rename init [project name]   // use exists directroy named project name
+$ rice init                  // in current directory
+$ rice init [project name]   // use exists directroy named project name
 ```
 Example:
 ```
-$ rename init img
+$ rice init img
 ```
 
-rename will run npm to install dependencies.
-
-
-## Scaffolding
-
-Using `Gulp + Webpack + Babel + BrowserSync` Scaffolding.
-
-You can modify your project name，or modify the project detail by `npm init`.
-
-### development
-
-``` js
-$ npm run dev
-```
-
-### build
-
-``` js
-$ npm run dist
-```
+rice-rename will run npm to install dependencies.
