@@ -41,5 +41,3 @@ $ npm run dev
 ``` js
 $ npm run dist
 ```
-
-### https://github.com/AlloyTeam/omi/tree/master/cli
