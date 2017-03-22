@@ -7,7 +7,7 @@ CLI for scaffolding rice-rename projects.
 Prerequisites: Node.js (>=6.x), npm version 3+
 
 ```
-$ npm install rice-rename -g
+$ npm install rice-rename -gd
 ```
 
 ### Usage
