@@ -1,6 +1,3 @@
-
-#!/usr/bin/env node
-
 'use strict'
 
 const program = require('commander')
@@ -23,6 +20,7 @@ let cmdstr = program.args[0]
 if (cmdstr) {
 
     const binFile = executable(cmdstr)
+	console.log(binFile)
     if (binFile) {
         console.log()
         console.log(chalk.bold.cyan("rename-init") + " is initializing... ")
