@@ -1,12 +1,37 @@
 {
-  "name": "rename",
-  "version": "1.0.3",
-  "description": ">给当前文件夹下图片文件重命名的",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "rice-rename",
+  "version": "1.0.8",
+  "description": "CLI for scaffolding rename projects. 给当前文件夹下图片文件重命名的",
+  "main": "bin/rename",
+  "engines": {
+    "node": ">=4.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "preferGlobal": true,
+  "bin": {
+    "rename": "./bin/rename"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihongmi/rice-rename"
+  },
+  "keywords": [
+    "rice",
+    "rename"
+  ],
+  "author": "lihongmi",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "cross-npm-spawn": "^1.1.1",
+    "cross-spawn": "^5.0.1",
+    "empty-dir": "^0.2.1",
+    "fs-exists-sync": "^0.1.0",
+    "ora": "^1.1.0",
+    "vinyl-fs": "^2.4.4"
+  },
+   "bugs": {
+    "url": "https://github.com/lihongmi/rice-rename/issues"
+  },
+  "homepage": "https://github.com/lihongmi/rice-rename#readme"
 }

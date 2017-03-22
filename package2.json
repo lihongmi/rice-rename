@@ -1,0 +1,16 @@
+{
+  "name": "rice-rename",
+  "version": "1.0.5",
+  "description": ">给当前文件夹下图片文件重命名的",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihongmi/rice-rename"
+  },
+  "keywords": ["图片重命名"],
+  "author": "lihongmi",
+  "license": "ISC"
+}
