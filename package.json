@@ -1,0 +1,12 @@
+{
+  "name": "rename",
+  "version": "1.0.3",
+  "description": ">给当前文件夹下图片文件重命名的",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
